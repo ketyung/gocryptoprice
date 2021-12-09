@@ -44,7 +44,7 @@ func main() {
 		panic(err)
 	}
 
-	b := []byte(val)
+	b := []byte(val) // convert string into byte slice
 
 	var curr CurrencyPrice
 
